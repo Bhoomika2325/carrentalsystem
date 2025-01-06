@@ -1,0 +1,194 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0fdfd; /* Light sea-green background */
+    color: #004d40; /* Dark sea-green text */
+}
+
+/* Header Styles */
+header {
+    background-color: #2e8b57; /* Sea green */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav a:hover {
+    color: #cce7e8; /* Light sea green hover effect */
+}
+
+/* Car Options Section */
+#car-options {
+    text-align: center;
+    padding: 20px;
+}
+
+#car-options h2 {
+    color: #2e8b57; /* Sea green */
+    margin-bottom: 20px;
+}
+
+.cars {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.car {
+    background-color: white;
+    border: 2px solid #2e8b57; /* Sea green border */
+    border-radius: 8px;
+    width: 250px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.car img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.car p {
+    font-weight: bold;
+    margin: 10px 0;
+    color: #004d40; /* Dark sea-green */
+}
+
+.book-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #2e8b57; /* Sea green */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.book-button:hover {
+    background-color: #cce7e8; /* Light sea green */
+    color: #004d40; /* Dark sea green text */
+}
+
+/* Forms */
+form {
+    background-color: white;
+    border: 2px solid #2e8b57; /* Sea green */
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #004d40; /* Dark sea green */
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cce7e8; /* Light sea green */
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2e8b57; /* Sea green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #004d40; /* Dark sea green */
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 77, 64, 0.8); /* Transparent dark sea green overlay */
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content img {
+    max-width: 50%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.modal-content h3,
+.modal-content p {
+    color: #004d40; /* Dark sea green */
+}
+
+.modal-content button {
+    background-color: #2e8b57; /* Sea green */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.modal-content button:hover {
+    background-color: #004d40; /* Dark sea green */
+}
+
+.close {
+    float: right;
+    font-size: 20px;
+    color: #004d40; /* Dark sea green */
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #cce7e8; /* Light sea green */
+}
